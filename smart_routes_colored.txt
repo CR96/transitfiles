@@ -6,7 +6,7 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 210,1,210,ROUTE 210,,3,,ffffff,000000
 250,1,250,ROUTE 250,,3,,ffffff,000000
 255,1,255,ROUTE 255,,3,,ffffff,000000
-261,1,261,FAST MICHIGAN,,3,,ffffff,000000
+261,1,261,FAST MICHIGAN,,3,,004eb4,000000
 275,1,275,TELEGRAPH TAYLOR - TEL-TWELVE,,3,,ffffff,000000
 2750,1,2750,ROUTE 2750,,3,,ffffff,000000
 280,1,280,ROUTE 280,,3,,ffffff,000000
