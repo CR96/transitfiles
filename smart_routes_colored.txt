@@ -28,8 +28,8 @@ route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_
 530,1,530,ROUTE 530,,3,,ffffff,000000
 550,1,550,ROUTE 550,,3,,ffffff,000000
 560,1,560,ROUTE 560,,3,,ffffff,000000
-562,1,562,FAST GRATIOT - WSU,,3,,ffffff,000000
-563,1,563,FAST GRATIOT,,3,,ffffff,000000
+562,1,562,FAST GRATIOT - WSU,,3,,6dbb2e,000000
+563,1,563,FAST GRATIOT,,3,,6dbb2e,000000
 610,1,610,ROUTE 610,,3,,ffffff,000000
 615,1,615,ROUTE 615,,3,,ffffff,000000
 620,1,620,ROUTE 620,,3,,ffffff,000000
