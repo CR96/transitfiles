@@ -8,6 +8,9 @@
 
 # Corey Rowe, December 2021
 
+mkdir gtfs_one/
+mkdir gtfs_two/
+
 unzip $1 -d gtfs_one/
 unzip $2 -d gtfs_two/
 
