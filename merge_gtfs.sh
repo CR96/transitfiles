@@ -13,6 +13,9 @@ unzip $2 -d gtfs_two/
 
 mkdir gtfs_merged/
 
+# Remove the header line from each file in the second GTFS archive.
+find gtfs_two/ -type f -exec sed -i '1d' {} \;
+
 cat gtfs_one/agency.txt gtfs_two/agency.txt > gtfs_merged/agency.txt
 cat gtfs_one/calendar_dates.txt gtfs_two/calendar_dates.txt > gtfs_merged/calendar_dates.txt
 cat gtfs_one/calendar.txt gtfs_two/calendar.txt > gtfs_merged/calendar.txt
