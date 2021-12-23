@@ -37,6 +37,10 @@ cat gtfs_one/transfers.txt gtfs_two/transfers.txt > gtfs_merged/transfers.txt
 cat gtfs_one/trips.txt gtfs_two/trips.txt > gtfs_merged/trips.txt
 
 cd gtfs_merged/
+
+# Standardize line endings before creating new archive
+dos2unix *.txt
+
 zip ../$3 *.txt
 
 cd ../
