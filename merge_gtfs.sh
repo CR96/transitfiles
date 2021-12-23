@@ -35,7 +35,10 @@ cat gtfs_one/timepoints_times.txt gtfs_two/timepoints_times.txt > gtfs_merged/ti
 cat gtfs_one/transfers.txt gtfs_two/transfers.txt > gtfs_merged/transfers.txt
 cat gtfs_one/trips.txt gtfs_two/trips.txt > gtfs_merged/trips.txt
 
-zip $3 gtfs_merged/*.txt
+cd gtfs_merged/
+zip ../$3 *.txt
+
+cd ../
 
 rm -rf gtfs_one/
 rm -rf gtfs_two/
