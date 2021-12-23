@@ -29,6 +29,7 @@ cat gtfs_one/feed_info.txt gtfs_two/feed_info.txt > gtfs_merged/feed_info.txt
 cat gtfs_one/frequencies.txt gtfs_two/frequencies.txt > gtfs_merged/frequencies.txt
 cat gtfs_one/routes.txt gtfs_two/routes.txt > gtfs_merged/routes.txt
 cat gtfs_one/shapes.txt gtfs_two/shapes.txt > gtfs_merged/shapes.txt
+cat gtfs_one/stops.txt gtfs_two/stops.txt > gtfs_merged/stops.txt
 cat gtfs_one/stop_times.txt gtfs_two/stop_times.txt > gtfs_merged/stop_times.txt
 cat gtfs_one/timepoints.txt gtfs_two/timepoints.txt > gtfs_merged/timepoints.txt
 cat gtfs_one/timepoints_times.txt gtfs_two/timepoints_times.txt > gtfs_merged/timepoints_times.txt
